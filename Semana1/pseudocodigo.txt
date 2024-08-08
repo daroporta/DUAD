@@ -1,0 +1,50 @@
+#Ejercicio de Algoritmo
+
+
+# 1. Algoritmo para ver un video en YouTube.
+
+# Inicio
+
+# 1) Encender el dispositivo.
+# 2) Busque YouTube en su dispositivo.
+#   a) Si es celular o Tablet:
+#       i. Si tiene la aplicación:
+#           Abrir la aplicación de YouTube.
+#       ii. Si no tiene la aplicación:
+#           Abra la tienda de aplicaciones móviles de su celular o Tablet.
+#           Escriba en la barra de búsqueda “YouTube”.
+#           Abra la opción que dice YouTube con un icono de fondo blanco y logo rojo.
+#           Descargue la aplicación.
+#           Instale la aplicación en su dispositivo.
+#               - Si gusta:
+#                   Vincule su cuenta de Google con YouTube.
+#                   Acepte los términos y condiciones.
+#               - Si no gusta vincular su cuenta de Google:
+#                   Acepte los términos y condiciones.
+#       iii. Si no tiene la aplicación y no puede descargarla:
+#           Vaya al navegador de su dispositivo.
+#           En la barra de búsqueda, escriba “YouTube”.
+#           Abra el primer enlace que dice YouTube con un icono de fondo blanco y logo rojo.
+#   b) Sino, si tiene una computadora:
+#       Vaya al navegador de su dispositivo.
+#       En la barra de búsqueda, escriba “YouTube”.
+#       Abra el primer enlace que dice YouTube con un icono de fondo blanco y logo rojo.
+#           i. Si gusta:
+#               Vincule su cuenta de Google con YouTube.
+#               Acepte los términos y condiciones.
+#           ii. Si no gusta vincular su cuenta de Google:
+#               Acepte los términos y condiciones.
+#   3) Escribir el nombre del video.
+#       a) Si encuentra el video:
+#           Abra el video.
+#       b) Si no encuentra el video:
+#           Busque el nombre del canal.
+#           Abra el canal del YouTuber.
+#           Busque el video.
+#          i. Si lo encuentra:
+#               Abra el video.
+#           ii. Si no lo encuentra:
+#               Pregúntele a un conocido por el nombre del video o el canal.
+#   4) Mire el video
+
+# Fin

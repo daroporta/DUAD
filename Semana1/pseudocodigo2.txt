@@ -1,0 +1,74 @@
+# Ejercicio de algoritmo
+
+# 2. Algoritmo de mi rutina diaria
+
+# Inicio
+
+# 1) Despertarme a las 7:00 am.
+# 2) Revisar que los gatos y perros hayan comido.
+#   a) Si ya comieron:
+#       Mientras las tazas estén sucias:
+#       Limpio las tazas de comida.
+#   b) Si no han comido:
+#       Les doy de comer.
+#       Terminan de comer.
+#       Mientas las tazas estén sucias:
+#           Limpio las tazas.
+# 3) Desayuno:
+#   a) Si tengo frutas:
+#       Desayuno solo una fruta con yogurt.
+#   b) Si no tengo frutas:
+#       Desayuno gallo pinto.
+#       Tomo un jugo natural.
+#   c) Si no tengo frutas y gallo pinto:
+#       Desayuno pan con natilla.
+#       Tomo un jugo natural.
+# 4) Trabajo:
+#   a) Si es domingo o lunes o martes o viernes:
+#       Enciendo la computadora.
+#       Abro los programas que necesito para trabajar.
+#       Mientras haya calor:
+#           Mantengo el ventilador encendido.
+#       Tomo un receso de 15 minutos a las 9:30 am.
+#       Sigo trabajando.
+#       Tomo mi hora de almuerzo a las 12:00 pm
+
+#       Tomo un baño.
+#       Mientras tenga jabón o espuma en el cuerpo:
+#           Me hecho agua.
+#       Como un almuerzo pesado.
+#       Alimento a mis mascotas.
+#       Sigo trabajando.
+#       Tomo un receso de 15 minutos a las 2:45.
+#       i) Si tengo hambre:
+#           Busco algo de comer para tener una merienda.
+#       ii) Si no tengo hambre:
+#           Me acuesto en una hamaca.
+#       iii) Sigo trabajando.
+#           A las 4:30 pm, tomo otro receso de 15 minutos.
+#           Termino de trabajar a las 7:00 pm.
+#   b) Sino es Domingo o lunes o martes o viernes:
+#       Veo alguna seria por 1 hora.
+#       Leo por 2 horas.
+#       Enciendo la computadora.
+#       Estudio materias de la universidad.
+#       Mientras no este lloviendo:
+#       Salgo a caminar con mis mascotas por 1 hora.
+#       Tomo un baño.
+#       Tomo almuerzo.
+#       Mientras tenga tareas semanales de la universidad:
+#           Realizo tareas de la universidad.
+#           i) Si estoy cansado:
+#               Tomo una siesta de 30 minutos.
+#           ii) Si no estoy cansado:
+#               Veo videos en YouTube.
+#       Limpio.
+#       Escucho música.
+# 5) Juego con mis mascotas.
+# 6) Uso el celular.
+# 7) Estudio.
+# 8) Ceno.
+# 9) Leo.
+# 10) Voy a dormir.
+
+# Fin
