@@ -1,0 +1,31 @@
+# Inicio
+
+# Definir `Tiempo_en_segundos`
+
+# Definir `Minutos_en_segundos`
+
+# Definir `Tiempo_faltante`
+
+# `Minutos_en_segundos` = 600
+
+# Mostrar “Ingrese la cantidad de segundos: “
+
+# Pedir `Tiempo_en_segundos`
+
+# Si (`Tiempo_en_segundos` < `Minutos_en_segundos`) entonces:
+
+#       Mostrar “La cantidad ingresada de segundos es menos de 10 minutos”
+
+#       `Tiempo_faltante` = `Minutos_en_segundos` - `Tiempo_en_segundos`
+
+#       Mostrar “El total de segundos que le falta para llegar a 10 minutos es de: “
+
+#       Mostrar `Tiempo_faltante`
+
+# Sino:
+
+#       Mostrar “La cantidad ingresada en segundos es mayor a 10 minutos”
+
+# Finsi
+
+# Fin
