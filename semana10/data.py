@@ -8,8 +8,11 @@ def export_data(file_path, data, headers):
 
 
 def import_file(file_path):
-    with open(file_path, "r") as file:
-        reader=csv.DictReader(file)
-        for row in reader:
-            print(row)
+    try:
+        with open(file_path, "r") as file:
+            reader=csv.DictReader(file)
+            for row in reader:
+                print(row)
+    except FileNotFoundError as ex:
+        print("There has not been any file exported, please import data and then you can export")
 
