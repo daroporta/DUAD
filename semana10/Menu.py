@@ -36,9 +36,4 @@ def select_option():
         except ValueError:
             print("The value you have entered is not valid, please try again")
 
-
-# def create_list():
-#     students_list=[]
-#     return students_list
-
 students_list=[]
