@@ -1,4 +1,4 @@
-import actions, data
+import actions, data 
 
 def select_option():
     while True:
@@ -22,9 +22,12 @@ def select_option():
             elif  option == 4:
                 actions.calculate_total_averages(students_list)
             elif  option == 5:
-                data.export_data("Student_information", students_list, students_list[0].keys())
+                try:
+                    data.export_data("Student_information", students_list, students_list[0].keys())
+                except IndexError:
+                    print("You have not added any student to export. Please add a student.") 
             elif  option == 6:
-                data.import_file("Student_information")    #Still pending on how to know if there has been data exported before
+                data.import_file("Student_information")    
             elif  option == 7:
                 print("\nThank you for visiting our Academic system\n\nGood bye...")
                 break
@@ -32,5 +35,10 @@ def select_option():
                 print("The option you have selected is not valid, please select between 1 and 7")
         except ValueError:
             print("The value you have entered is not valid, please try again")
+
+
+# def create_list():
+#     students_list=[]
+#     return students_list
 
 students_list=[]

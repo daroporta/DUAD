@@ -12,7 +12,11 @@ def import_file(file_path):
         with open(file_path, "r") as file:
             reader=csv.DictReader(file)
             for row in reader:
+                import_list().append(row)    #FIX ERROR 
                 print(row)
     except FileNotFoundError as ex:
         print("There has not been any file exported, please import data and then you can export")
 
+def import_list():
+    from Menu import students_list
+    return students_list

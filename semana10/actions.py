@@ -8,7 +8,7 @@ def add_student(students_list):
                         "name": input("\nName of student: "),
                         "class_group": input("\nInsert the Class group ID ?: ")}
                 try:
-                    while True:                                                     #I still need to improve this section, because this is not efficient.
+                    while True:                                                   
                         Spanish=float(input("Spanish score: " )) 
                         if 0 <= Spanish <= 100:
                             student["Spanish_score"]=Spanish
@@ -40,7 +40,7 @@ def add_student(students_list):
                 except Exception as ex:
                     print(f"Please type a valid score between 0 and 100, error found: {ex}")
                 for student in students_list:
-                            average=(student["Spanish_score"] + student["English_score"] + student["History_score"] + student["Science_score"]) / 4
+                            average=(float(student["Spanish_score"]) + float(student["English_score"]) + float(student["History_score"]) + float(student["Science_score"])) / 4   # why does it not work like this, if the subject is float?  
                             student["average"]=average
             elif add=="NO":
                 break
@@ -58,9 +58,9 @@ def check_student(student_list):
 
 
 def calculate_top_averages(student_list):
-    highest_average=sorted(student_list, key=lambda x: x["average"], reverse=True)
+    highest_average=sorted(student_list, key=lambda x: x["average"], reverse=True)  
     tops=highest_average[:3]
-    print("The highest average scores")
+    print("The highest average scores are:")
     for students in tops:
         print(f"Name: {students['name']}, Average:{students['average']}")
 
@@ -68,7 +68,7 @@ def calculate_top_averages(student_list):
 def calculate_total_averages(student_list):
     total_average=0
     for student in student_list:
-        total_average=student['average'] + total_average
+        total_average=float(student['average']) + total_average
     total= total_average / len(student_list)
     print(f"The total average of all the students is: {total}")
 
