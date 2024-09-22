@@ -40,7 +40,7 @@ def add_student(students_list):
                 except Exception as ex:
                     print(f"Please type a valid score between 0 and 100, error found: {ex}")
                 for student in students_list:
-                            average=(float(student["Spanish_score"]) + float(student["English_score"]) + float(student["History_score"]) + float(student["Science_score"])) / 4   # why does it not work like this, if the subject is float?  
+                            average=(float(student["Spanish_score"]) + float(student["English_score"]) + float(student["History_score"]) + float(student["Science_score"])) / 4   # why does it not work like this, if the subject is float? 
                             student["average"]=average
             elif add=="NO":
                 break
@@ -50,15 +50,13 @@ def add_student(students_list):
             print("The value you have entered is not valid, please type Yes or No")
 
 
-
-
 def check_student(student_list):
     for student in student_list:
         print(student)
 
 
 def calculate_top_averages(student_list):
-    highest_average=sorted(student_list, key=lambda x: x["average"], reverse=True)  
+    highest_average=sorted(student_list, key=lambda x: x["average"], reverse=True)   # si no cambiaba a float el average me daba error en lambda el parametro. 
     tops=highest_average[:3]
     print("The highest average scores are:")
     for students in tops:

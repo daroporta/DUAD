@@ -1,5 +1,5 @@
 import csv
-
+# por que no me permitia usar el from Menu import student_list?  me daba un error de que la informacion estaba como en circulacion y no me dejaba ejecutar el codigo. 
 def export_data(file_path, data, headers):
     with open(file_path, "w", encoding="utf-8") as file:   #should the option be append or write?
         writer=csv.DictWriter(file, headers)

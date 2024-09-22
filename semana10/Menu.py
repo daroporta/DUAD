@@ -23,11 +23,11 @@ def select_option():
                 actions.calculate_total_averages(students_list)
             elif  option == 5:
                 try:
-                    data.export_data("Student_information", students_list, students_list[0].keys())
+                    data.export_data("Student_information.csv", students_list, students_list[0].keys())
                 except IndexError:
                     print("You have not added any student to export. Please add a student.") 
             elif  option == 6:
-                data.import_file("Student_information")    
+                data.import_file("Student_information.csv")    
             elif  option == 7:
                 print("\nThank you for visiting our Academic system\n\nGood bye...")
                 break
