@@ -1,5 +1,10 @@
 class Circle:
-    radius=float(input("Please enter the radius of your circle: "))
+    while True:
+        try:
+            radius=float(input("Please enter the radius of your circle: "))
+            break
+        except ValueError:
+            print("Please type a number.")
 
 
     def get_area(self):
