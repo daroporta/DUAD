@@ -1,0 +1,22 @@
+USAGE OF MULTIPLE INHERITANCE
+
+when a subclass needs to combine multiple contracts and inherit some, or all, of the 
+implementation of those contracts. Multiple inheritance can be used to do strictly interface inheritance, 
+when mixin classes are needed. 
+
+REUSE CODE:  It allows classes to inheritance from multiple subclasses. It simplifies the code by reusing components
+            that already exist in previous classes. However, this type of heritage leads to ambiguity if it is not
+            used properly. 
+
+COMBINE FUNCTIONALITIES: It allows to use the features of each class into a new daughter class. Which permits 
+                        to create better structures that could be complex.
+
+EXTENSIBILITY: It eases the extension of the functionalities without modifying the original superclasses. 
+
+
+
+RESOURCES:
+
+https://stackoverflow.com/questions/573913/a-use-for-multiple-inheritance 
+https://keepcoding.io/blog/que-es-la-herencia-multiple-y-como-usarla/
+https://pythones.net/herencia-simple-y-multiple-python-oop/
