@@ -31,13 +31,3 @@ def determine_if_number(arg):
 numbers=Parameter("34", 55, 85.2, "99.5", "hi")
 
 determine_if_number(numbers)
-
-
-# parameter="33.3"
-
-# if int(parameter)== True:
-#     print(f"This is an int {parameter}")
-# elif float(parameter)== True:
-#     print(f"This is a float {parameter}")
-# else:
-#     print(f"This is not a number {parameter}")
