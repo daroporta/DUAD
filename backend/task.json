@@ -1,0 +1,26 @@
+[
+    {
+        "identifier": 1,
+        "task_title": "My second task",
+        "task_description": "Created my second task for an API",
+        "task_status": "Completed"
+    },
+    {
+        "identifier": 2,
+        "task_title": "My second task",
+        "task_description": "Created my second task for an API",
+        "task_status": "Completed"
+    },
+    {
+        "identifier": 3,
+        "task_title": "My third task",
+        "task_description": "Created an API",
+        "task_status": "In progress"
+    },
+    {
+        "identifier": 4,
+        "task_title": "My fourth task",
+        "task_description": "Created an API",
+        "task_status": "To do"
+    }
+]
